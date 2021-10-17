@@ -1,7 +1,7 @@
 // 这里是页面要展示的公共部分的内容
 // 给个例子，全部注释掉，因为不确定要引入什么版本的tea
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Layout } from 'tea-component';
 import NavHeader from '@/components/header';
 import LeftMenu from '@/components/leftMenu';
@@ -158,20 +158,37 @@ const routers = [
 ];
 
 export default (props) => {
+  const [withSide, setWithSide] = useState(true);
+  // console.log("layout",props,props.location.pathname.match(/\/enterApp|\/enterapp\/noPermission|\/nopermission|/gi))
+  useEffect(() => {
+    window.scrollTo(0, 0);
+
+    if (
+      props.location.pathname.match(
+        /\/enterApp|\/enterapp|\/noPermission|\/nopermission/gi,
+      )
+    ) {
+      setWithSide(false);
+    } else {
+      setWithSide(true);
+    }
+  }, [props.location.pathname]);
   return (
     <Layout>
       <Header>
         <NavHeader />
       </Header>
       <Body>
-        <Sider>
-          <LeftMenu
-            menuList={routers}
-            menuTitle="海外Checklist"
-            defaultSubSelected="0"
-            defaultSelected="0"
-          />
-        </Sider>
+        {withSide && (
+          <Sider>
+            <LeftMenu
+              menuList={routers}
+              menuTitle="海外Checklist"
+              defaultSubSelected="0"
+              defaultSelected="0"
+            />
+          </Sider>
+        )}
         <Content>{props.children}</Content>
       </Body>
     </Layout>

@@ -9,18 +9,16 @@ import {
   Input,
   Tree,
 } from 'tea-component';
-import { Link } from 'react-router-dom';
 
 const tabs = [
   { id: 'android', label: '基本信息' },
   { id: 'ios', label: '弹性网卡' },
   { id: 'windows', label: '监控信息' },
 ];
-const { Body, Header, Content } = Layout;
+const { Body, Content } = Layout;
 export default function App(props) {
   console.log(props);
   let id = props.match.params?.id || 'android';
-  const routePath = '/Demo/Framework/fixheadertab';
   const [activeId, setActiveId] = useState(id || 'android');
   useEffect(() => {
     // 切换/默认为Andriod
@@ -35,9 +33,6 @@ export default function App(props) {
             <Tabs
               tabs={tabs}
               activeId={activeId}
-              // tabBarRender={(children, tab) => (
-              //   <Link to={`${routePath}/${tab.id}`}>{children}</Link>
-              // )}
               onActive={(tab) => {
                 setActiveId(tab.id);
               }}

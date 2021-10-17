@@ -104,6 +104,12 @@ export default function Header(props) {
           <NavMenu.Item>
             <Link to="/">一站式工作台</Link>
           </NavMenu.Item>
+          <NavMenu.Item>
+            <Link to="/noPermission">无权限</Link>
+          </NavMenu.Item>
+          <NavMenu.Item>
+            <Link to="/enterApp">进入App</Link>
+          </NavMenu.Item>
 
           <NavMenu.Item type="icon">
             <Icon type="plus" className="tea-icon" />

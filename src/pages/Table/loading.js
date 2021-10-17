@@ -10,7 +10,7 @@ import {
   Justify,
   SearchBox,
 } from 'tea-component';
-import { cvmList, TableData } from '@/data';
+import { TableData } from '@/data';
 
 const { Body, Content } = Layout;
 const { pageable, autotip } = Table.addons;

@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from 'react';
 import { Layout, Card, StatusTip, List } from 'tea-component';
 import { TableDataEmpty } from '@/data';
-
 const { Body, Content } = Layout;
 
 // 模拟数据请求等待
