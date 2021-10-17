@@ -1,0 +1,508 @@
+@charset "UTF-8";
+
+$prefix: 'tea-' !default;
+
+$color-primary-0: #e5f0ff;
+$color-primary-1: #97c7ff;
+$color-primary-2: #8ec8ff;
+$color-primary-3: #50adff;
+$color-primary-4: #0090ff;
+$color-primary-5: #0076ff;
+$color-primary-6: #0061e1;
+$color-primary-7: #0051b9;
+$color-primary-8: #003b80;
+$color-primary-9: #212c53;
+
+$color-error-0: #fcecec;
+$color-error-1: #f6b5b5;
+$color-error-2: #f2a2a2;
+$color-error-3: #ee8383;
+$color-error-4: #e96464;
+$color-error-5: #e54545;
+$color-error-6: #cc3842;
+$color-error-7: #b42b3f;
+$color-error-8: #b43537;
+$color-error-9: #831238;
+
+$color-success-0: #e6f8ee;
+$color-success-1: #9ce4bc;
+$color-success-2: #84dfad;
+$color-success-3: #5cd492;
+$color-success-4: #33ca76;
+$color-success-5: #0abf5b;
+$color-success-6: #09a755;
+$color-success-7: #078f50;
+$color-success-8: #007e3b;
+$color-success-9: #055f44;
+
+$color-warning-0: #fff4e3;
+$color-warning-1: #ffd18b;
+$color-warning-2: #ffce7f;
+$color-warning-3: #ffbe55;
+$color-warning-4: #ffad2a;
+$color-warning-5: #ff9d00;
+$color-warning-6: #df7f00;
+$color-warning-7: #bf6000;
+$color-warning-8: #c07400;
+$color-warning-9: #802400;
+
+// Color
+
+$color-normal: #444 !default;
+$color-label: #888 !default;
+$color-weak: #bbb !default;
+$color-strong: #000 !default;
+// $color-primary: #9D00FF !default;
+$color-primary: #0076ff !default;
+$color-success: #0abf5b !default;
+$color-danger: #e54545 !default;
+$color-warning: #ff9d00 !default;
+$color-error: #e54545 !default;
+
+// Font-size
+
+// Font-width
+
+$font-weight-normal: 400 !default;
+$font-weight-bold: 700 !default;
+
+// border
+
+$border-width: 1px !default;
+$border-color: #ddd !default;
+
+// $color-brand : #9D00FF !default;
+$color-brand: #0076ff !default;
+$color-text-1: #000 !default;
+$color-text-2: #444 !default;
+$color-text-3: #888 !default;
+$color-text-4: #bbb !default;
+
+$font-size-base: 12px !default;
+$font-size-m: 14px !default;
+$font-size-l: 16px !default;
+$font-size-xl: 20px !default;
+$font-size-xxl: 24px !default;
+$font-size-xxxl: 36px !default;
+
+$color-line: #ddd !default;
+$color-line-1: #ddd !default;
+$color-line-2: #bbb !default;
+$color-line-3: #e5e5e5 !default;
+$color-line-4: #888 !default;
+
+$color-fill-1: #212c53 !default;
+$color-fill-2: #f2f3f5 !default; // hover #e5e5e5;
+$color-fill-3: #f7f7f7 !default;
+$color-fill-4: #fff !default;
+
+//间距
+$s-base: 4px !default;
+$s-0: $s-base * 0 !default;
+$s-1: $s-base * 1 !default;
+$s-2: $s-base * 2 !default;
+$s-3: $s-base * 3 !default;
+$s-4: $s-base * 4 !default;
+$s-5: $s-base * 5 !default;
+$s-6: $s-base * 6 !default;
+$mask-color: rgba(0, 0, 0, 0.6) !default;
+$darken-amount-hover: 5% !default;
+$darken-amount-active: 10% !default;
+$shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.15);
+
+$color-primary-0: #e3f2ff !default;
+$color-primary-1: #cde4ff !default;
+$color-primary-2: #8ec8ff !default;
+$color-primary-3: #50adff !default;
+$color-primary-4: #0090ff !default;
+$color-primary-5: #0076ff !default;
+$color-primary-6: #0061e1 !default;
+$color-primary-7: #0051b9 !default;
+$color-primary-8: #004091 !default;
+$color-primary-9: #212c53 !default;
+
+$color-error-0: #fbe0e0 !default;
+$color-error-1: #f6c1c1 !default;
+$color-error-2: #f2a2a2 !default;
+$color-error-3: #ee8383 !default;
+$color-error-4: #e96464 !default;
+$color-error-5: #e54545 !default;
+$color-error-6: #cc3842 !default;
+$color-error-7: #b42b3f !default;
+$color-error-8: #9c1f3b !default;
+$color-error-9: #831238 !default;
+
+// success
+$color-success-0: #d6f4e4 !default;
+$color-success-1: #adeac8 !default;
+$color-success-2: #84dfad !default;
+$color-success-3: #5cd492 !default;
+$color-success-4: #33ca76 !default;
+$color-success-5: #0abf5b !default;
+$color-success-6: #09a755 !default;
+$color-success-7: #078f50 !default;
+$color-success-8: #06774a !default;
+$color-success-9: #055f44 !default;
+
+// warning
+$color-warning-0: #ffefd5 !default;
+$color-warning-1: #ffdeaa !default;
+$color-warning-2: #ffce7f !default;
+$color-warning-3: #ffbe55 !default;
+$color-warning-4: #ffad2a !default;
+$color-warning-5: #ffad2a !default;
+$color-warning-6: #df7f00 !default;
+$color-warning-7: #bf6000 !default;
+$color-warning-8: #a04200 !default;
+$color-warning-9: #802400 !default;
+
+// neutral
+$color-neutral-0: #e7eaef !default;
+$color-neutral-1: #ddd !default;
+$color-neutral-2: #b7c1ce !default;
+$color-neutral-3: #9eacbe !default;
+$color-neutral-4: #8697ad !default;
+$color-neutral-5: #6e829d !default;
+$color-neutral-6: #60708a !default;
+$color-neutral-7: #525e76 !default;
+$color-neutral-8: #444c63 !default;
+$color-neutral-9: #363a50 !default;
+
+//##################################################
+
+$color-primary: $color-primary-5 !default; // 色彩-品牌-可操作
+$color-warning: $color-warning-5 !default; // 色彩-功能-警告
+$color-error: $color-error-5 !default; // 色彩-功能-失败
+$color-success: $color-success-5 !default; // 色彩-功能-成功
+
+// 主题色扩展
+$color-primary-hover: $color-primary-6 !default;
+$color-primary-focus: $color-primary-6 !default;
+$color-primary-active: $color-primary-4 !default;
+$color-primary-disabled: $color-primary-1 !default;
+// $color-primary-disabled: $color-weak !default;
+
+// 警告色扩展
+$color-warning-hover: $color-warning-4 !default;
+$color-warning-focus: $color-warning-4 !default;
+$color-warning-active: $color-warning-6 !default;
+$color-warning-disabled: $color-warning-1 !default;
+
+// 失败/错误色扩展
+$color-error-hover: $color-error-4 !default;
+$color-error-focus: $color-error-4 !default;
+$color-error-active: $color-error-6 !default;
+$color-error-disabled: $color-error-1 !default;
+
+// 成功色扩展
+$color-success-hover: $color-success-4 !default;
+$color-success-focus: $color-success-4 !default;
+$color-success-active: $color-success-6 !default;
+$color-success-disabled: $color-success-1 !default;
+
+// 背景色
+$color-bg-fade: rgba(0, 0, 0, 0.9) !default;
+
+$color-bg: #ffffff !default;
+$color-bg-hover: #f2f3f5 !default; //本身是白底的hover色，
+$color-bg-focus: $color-neutral-0 !default;
+$color-bg-active: $color-neutral-1 !default;
+$color-bg-disabled: #f2f3f5 !default; //
+
+$color-bg-second: #f2f3f5 !default; // 用于控制台大灰底
+$color-bg-second-hover: #dbdfe6 !default; // 如果0号作为底色，hover则用 $color-neutral-1 色 50% 的透明
+
+$color-bg-gray: #f2f3f5 !default; // 用于白底上的灰底模块  即$color-neutral-0 色 50% 透明度
+$color-bg-gray-hover: $color-neutral-0 !default;
+
+// $bg-msg-color: $color-primary-0 !default;
+// $bg-msg-success-color: $color-success-0 !default;
+// $bg-msg-warning-color: $color-warning-1 !default;
+// $bg-msg-error-color: $color-error-0 !default;
+
+// 文本色
+$color-text: #444 !default; // 默认文本颜色
+$color-text-weight: #000 !default;
+// $color-text-label: rgba(0, 0, 0, 0.4) !default;
+$color-text-label: $color-label !default;
+// $color-text-weak: rgba(0, 0, 0, 0.25) !default;
+$color-text-weak: $color-weak !default;
+$color-text-disabled: #bbb !default;
+$color-text-anti-primary: #ffffff !default;
+$color-text-tooltips: #ffffff !default;
+
+$color-text-primary: $color-primary !default;
+$color-text-success: $color-success !default;
+$color-text-error: $color-error !default;
+$color-text-warning: $color-warning !default;
+
+// $text-msg-color: $color-primary-7 !default;
+// $text-msg-success-color: $color-success-8 !default;
+// $text-msg-warning-color: $color-warning-8 !default;
+// $text-msg-error-color: $color-error-7 !default;
+
+// 边框
+$color-border: $color-neutral-1 !default; // 边框，描边颜色
+$color-border-hover: #888 !default;
+$color-border-inner: $color-neutral-0 !default; // 内部分割线
+$color-border-disabled: #bbb !default; // fixed by rovy
+
+// $border-msg-color: $color-primary-4 !default;
+// $border-msg-success-color: $color-success-4 !default;
+// $border-msg-warning-color: $color-warning-4 !default;
+// $border-msg-error-color: $color-error-4 !default;
+
+// 字号
+$font-size-default: 12px !default;
+$font-size-l: 14px !default;
+$font-size-xl: 16px !default;
+$font-size-xxl: 24px !default;
+$font-size-xxxl: 36px !default;
+
+$line-height-default: 1.5 !default; // 默认行高
+$line-height-fz-default: 20px !default; // fz-default 对应的行高
+$line-height-fz-l: 22px !default; // fz-l 对应的行高
+$line-height-fz-xl: 24px !default; // fz-xl 对应的行高
+$line-height-fz-xxl: 32px !default; // fz-xxl 对应的行高
+$line-height-fz-xxxl: 52px !default; // fz-xxxl 对应的行高
+
+$font-size-h1: $font-size-xxxl !default;
+$font-size-h2: $font-size-xxl !default;
+// $font-size-h3: $font-size-l !default;
+// $font-size-h4: $font-size-l !default;
+$font-size-h3: $font-size-m !default;
+$font-size-h4: $font-size-m !default;
+$font-size-h5: $font-size-default !default;
+$font-size-h6: $font-size-default !default;
+
+// Font-width
+$font-weight-normal: 400 !default;
+$font-weight-bold: 700 !default;
+
+// 阴影
+// $box-shadow-s: 0 2px 4px 0 rgba(54, 58, 80, 0.32) !default;
+// $box-shadow: 0 0 16px 0 rgba(54,58,80,0.16) !default;
+$box-shadow-s: 0 1px 1px 0 rgba(0, 0, 0, 0.15) !default;
+$box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.15) !default;
+
+// 遮罩
+$mask-color: rgba(0, 0, 0, 0.8) !default;
+
+// 圆角
+$border-radius: 0px !default;
+
+$space-base: 4px !default;
+
+//表单高度影响范围：
+//button、segment、input、inputgroup、autocomplete、select、dropdown、search、tagsearch、taginput、slider、inputnumber、datepicker、cascader、region-select
+$form-height: 30px !default;
+$form-placeholder: $color-text-weak !default;
+
+$icon-color-default: #888 !default;
+$icon-color-weight: #444 !default;
+$icon-color-primary: $color-primary !default;
+$icon-color-error: $color-error !default;
+$icon-color-warning: $color-warning !default;
+$icon-color-success: $color-success !default;
+
+$img-color: 'light' !default;
+
+// todo 待全部替换成sass变量后，去掉此处css变量
+// :root {
+//   // primary
+//   --color-primary-0: #d5e7ff;
+//   --color-primary-1: #aacfff;
+//   --color-primary-2: #7fb7ff;
+//   --color-primary-3: #559eff;
+//   --color-primary-4: #2a86ff;
+//   --color-primary-5: #006eff;
+//   --color-primary-6: #0058df;
+//   --color-primary-7: #0046b9;
+//   --color-primary-8: #002da0;
+//   --color-primary-9: #001780;
+
+//   --color-error-0: #fbe3e3;
+//   --color-error-1: #f6c1c1;
+//   --color-error-2: #f2a2a2;
+//   --color-error-3: #ee8383;
+//   --color-error-4: #f6b5b5;
+//   --color-error-5: #e54545;
+//   --color-error-6: #cc3845;
+//   --color-error-7: #b43537;
+//   --color-error-8: #9c1f44;
+//   --color-error-9: #831243;
+
+//   // success
+//   --color-success-0: #e6f8ee;
+//   --color-success-1: #adeac8;
+//   --color-success-2: #84dfad;
+//   --color-success-3: #5cd492;
+//   --color-success-4: #9ce4bc;
+//   --color-success-5: #0abf5b;
+//   --color-success-6: #09a552;
+//   --color-success-7: #078b49;
+//   --color-success-8: #007e3b;
+//   --color-success-9: #055637;
+
+//   // warning
+//   --color-warning-0: #ffeed5;
+//   --color-warning-1: #ffdeaa;
+//   --color-warning-2: #ffce7f;
+//   --color-warning-3: #ffbe55;
+//   --color-warning-4: #ffd18b;
+//   --color-warning-5: #ff9d00;
+//   --color-warning-6: #f28f00;
+//   --color-warning-7: #e0880b;
+//   --color-warning-8: #a04200;
+//   --color-warning-9: #802400;
+
+//   // neutral
+//   --color-neutral-7: #000;
+//   --color-neutral-6: #444;
+//   --color-neutral-5: #888;
+//   --color-neutral-4: #bbb;
+//   --color-neutral-3: #ddd;
+//   --color-neutral-2: #e5e5e5;
+//   --color-neutral-1: #f2f2f2;
+//   --color-neutral-0: #fff;
+
+//   //##################################################
+
+//   --text-color: #444444;
+//   --text-weight-color: #000000;
+//   --text-weak-color: #bbbbbb;
+//   --text-label-color: #888888;
+//   --text-disabled-color: #bbbbbb;
+//   --text-anti-primary-color: #ffffff;
+
+//   --text-success-color: var(--color-success-5);
+//   --text-warning-color: var(--color-warning-5);
+//   --text-error-color: var(--color-error-5);
+//   --text-primary-color: var(--color-primary-5);
+//   --text-primary-disabled-color: var(--color-primary-3);
+//   --text-pay-color: var(--color-warning-5);
+
+//   --text-msg-color: var(--color-primary-7);
+//   --text-msg-success-color: var(--color-success-8);
+//   --text-msg-warning-color: var(--color-warning-8);
+//   --text-msg-error-color: var(--color-error-7);
+
+//   // 边框
+//   --border-color: #dddddd;
+//   --border-hover-color: #bbbbbb;
+//   /* d1d2d3 */
+//   --border-weight-color: #333333;
+//   --border-inner-color: #e5e5e5;
+//   --border-disabled-color: #dddddd;
+
+//   --border-primary-color: var(--color-primary-5);
+//   --border-primary-hover-color: var(--color-primary-6);
+//   --border-primary-active-color: var(--color-primary-7);
+//   --border-primary-focus-color: var(--color-primary-6);
+//   --border-primary-disabled-color: var(--color-primary-3);
+
+//   --border-secondary-color: #dddddd;
+//   --border-secondary-hover-color: #bbbbbb;
+//   --border-secondary-active-color: #dddddd;
+//   --border-secondary-focus-color: #bbbbbb;
+//   --border-secondary-disabled-color: #dddddd;
+
+//   --border-pay-color: var(--color-warning-5);
+//   --border-pay-hover-color: var(--color-warning-6);
+//   --border-pay-active-color: var(--color-warning-7);
+//   --border-pay-focus-color: var(--color-warning-6);
+//   --border-pay-disabled-color: var(--color-warning-2);
+
+//   --border-error-color: var(--color-error-5);
+//   --border-error-hover-color: var(--color-error-6);
+//   --border-error-active-color: var(--color-error-7);
+//   --border-error-focus-color: var(--color-error-6);
+//   --border-error-disabled-color: var(--color-error-3);
+
+//   --border-success-color: var(--color-success-5);
+//   --border-success-hover-color: var(--color-success-6);
+//   --border-success-active-color: var(--color-success-7);
+//   --border-success-focus-color: var(--color-success-6);
+//   --border-success-disabled-color: var(--color-success-3);
+
+//   --border-msg-color: var(--color-primary-4);
+//   --border-msg-success-color: var(--color-success-4);
+//   --border-msg-warning-color: var(--color-warning-4);
+//   --border-msg-error-color: var(--color-error-4);
+
+//   --bg-color: #ffffff;
+//   --bg-hover-color: #f2f2f2;
+//   --bg-second-color: #ffffff;
+//   --bg-second-hover-color: #f2f2f2;
+//   --bg-weight-color: #333333;
+//   --bg-disabled-color: #f2f2f2;
+//   --bg-gray-color: #f2f2f2;
+//   --bg-gray-hover-color: #e5e5e5;
+
+//   --bg-warning-color: var(--color-warning-5);
+//   --bg-warning-hover-color: var(--color-warning-6);
+//   --bg-warning-active-color: var(--color-warning-7);
+//   --bg-warning-focus-color: var(--color-warning-6);
+//   --bg-warning-disabled-color: var(--color-warning-3);
+
+//   --bg-primary-color: var(--color-primary-5);
+//   --bg-primary-hover-color: var(--color-primary-6);
+//   --bg-primary-active-color: var(--color-primary-7);
+//   --bg-primary-focus-color: var(--color-primary-6);
+//   --bg-primary-disabled-color: var(--color-primary-3);
+
+//   --bg-secondary-color: #ffffff;
+//   --bg-secondary-hover-color: #f2f2f2;
+//   --bg-secondary-active-color: #ffffff;
+//   --bg-secondary-focus-color: #f2f2f2;
+//   --bg-secondary-disabled-color: #ffffff;
+
+//   --bg-pay-color: var(--color-warning-5);
+//   --bg-pay-hover-color: var(--color-warning-6);
+//   --bg-pay-active-color: var(--color-warning-7);
+//   --bg-pay-focus-color: var(--color-warning-6);
+//   --bg-pay-disabled-color: var(--color-warning-3);
+
+//   --bg-error-color: var(--color-error-5);
+//   --bg-error-hover-color: var(--color-error-6);
+//   --bg-error-active-color: var(--color-error-7);
+//   --bg-error-focus-color: var(--color-error-6);
+//   --bg-error-disabled-color: var(--color-error-3);
+
+//   --bg-success-color: var(--color-success-5);
+//   --bg-success-hover-color: var(--color-success-6);
+//   --bg-success-active-color: var(--color-success-7);
+//   --bg-success-focus-color: var(--color-success-6);
+//   --bg-success-disabled-color: var(--color-success-3);
+
+//   --bg-text-color: rgba(0, 0, 0, 0);
+//   --bg-text-hover-color: rgba(0, 0, 0, 0.05);
+//   --bg-text-active-color: rgba(0, 0, 0, 0.05);
+//   --bg-text-focus-color: rgba(0, 0, 0, 0.05);
+
+//   --bg-msg-color: var(--color-primary-0);
+//   --bg-msg-success-color: var(--color-success-0);
+//   --bg-msg-warning-color: var(--color-warning-1);
+//   --bg-msg-error-color: var(--color-error-0);
+
+//   // 字号
+//   --fz-s: 10px;
+//   --fz-default: 12px;
+//   --fz-l: 14px;
+//   --fz-xl: 16px;
+//   --fz-xxl: 18px;
+
+//   --fz-h1: 16px;
+//   --fz-h2: 16px;
+//   --fz-h3: 14px;
+//   --fz-h4: 14px;
+//   --fz-h5: 12px;
+//   --fz-h6: 12px;
+
+//   // 阴影
+//   --box-shadow-s: 1px 1.732px 3px 0px rgba(0, 0, 0, 0.1);
+//   --box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+
+//   // 圆角
+//   --border-radius: 0px;
+// }
