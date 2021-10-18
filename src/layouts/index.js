@@ -69,6 +69,10 @@ const routers = [
         to: '/Table/tooManyActions',
       },
       {
+        title: 'Table 字段对齐方式',
+        to: '/Table/align',
+      },
+      {
         title: 'Table 数据为空',
         to: '/Table/empty',
       },
@@ -80,6 +84,14 @@ const routers = [
         title: 'Table 数据小于1页',
         to: '/Table/lessThan10',
       },
+      {
+        title: 'Table 带选择/过滤',
+        to: '/Table/tableFilter',
+      },
+      {
+        title: 'Table 固定列',
+        to: '/Table/fixedColumn',
+      },
     ],
   },
   {
@@ -89,14 +101,14 @@ const routers = [
           type="svg-icon-menu-user"
           className="svg-icon menu-item-icon"
         />
-        <div className="menu-item-text">通用</div>
+        <div className="menu-item-text">组件特殊用法</div>
       </div>
     ),
     tag: '',
     subMenu: [
       {
-        title: '按钮 Button',
-        to: '/Tea/Button',
+        title: '气泡 Bubble',
+        to: '/Tea/Bubble',
       },
       {
         title: '图标 Icon',
