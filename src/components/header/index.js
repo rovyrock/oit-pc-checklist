@@ -132,7 +132,7 @@ export default function Header(props) {
               <List
                 type="option"
                 className="header-dropdownlist"
-                style={{ width: 200 }}
+                style={{ width: 200, padding: '5px 0' }}
               >
                 <List.Item
                   onClick={() => history.push('/accountCenter/userInfo')}

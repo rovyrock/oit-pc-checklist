@@ -16,3 +16,7 @@
 .customize-svgicon:hover {
   color: #444;
 }
+
+.customize-form .tea-input {
+  width: 90%;
+}

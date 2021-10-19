@@ -43,7 +43,7 @@ export default (props) => {
             </Card>
 
             <Card>
-              <Card.Body title="黑色气泡">
+              <Card.Body title="黑色气泡（dark）">
                 <Bubble
                   dark
                   placement="top"
@@ -64,6 +64,13 @@ export default (props) => {
                   }
                 >
                   <Icon type="setting" />
+                </Bubble>
+              </Card.Body>
+            </Card>
+            <Card>
+              <Card.Body title="红色气泡（error）">
+                <Bubble error placement="top" content={<>异常信息</>}>
+                  <Icon type="error" />
                 </Bubble>
               </Card.Body>
             </Card>

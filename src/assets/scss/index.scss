@@ -6,3 +6,12 @@
 
 
 }
+
+// 样式作用域案例
+.customize{
+    &-form{
+        .tea-input{
+            width: 90%;
+        }
+    }
+}

@@ -1,5 +1,6 @@
-// 外网版本样式
+// IEGG风格的Tea组件库样式
 import 'oit-style';
+
 // 业务自定义样式
 import '@/assets/css/index.css';
 

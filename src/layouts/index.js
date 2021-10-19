@@ -25,6 +25,27 @@ const routers = [
         <div className="menu-item-text">框架层</div>
       </div>
     ),
+    subMenu: [
+      {
+        title: '框架介绍',
+        to: '/Framework/introduce',
+      },
+      {
+        title: '左侧菜单栏',
+        to: '/Framework/menu',
+      },
+    ],
+  },
+  {
+    title: (
+      <div className="menu-item">
+        <SvgIcon
+          type="svg-icon-menu-rule"
+          className="svg-icon menu-item-icon"
+        />
+        <div className="menu-item-text">右侧内容常见布局</div>
+      </div>
+    ),
     tag: '',
     subMenu: [
       {
@@ -123,14 +144,14 @@ const routers = [
           type="svg-icon-menu-rule"
           className="svg-icon menu-item-icon"
         />
-        <div className="menu-item-text">Demo</div>
+        <div className="menu-item-text">样式相关</div>
       </div>
     ),
     tag: '',
     subMenu: [
       {
-        title: '框架 标题置顶',
-        to: '/Demo/Framework/fixheader',
+        title: '样式重置需控制作用域',
+        to: '/Style/resetScope',
       },
       {
         title: '框架 tabs置顶',
@@ -195,7 +216,7 @@ export default (props) => {
           <Sider>
             <LeftMenu
               menuList={routers}
-              menuTitle="海外Checklist"
+              menuTitle="IEGG项目Checklist（PC）"
               defaultSubSelected="0"
               defaultSelected="0"
             />
