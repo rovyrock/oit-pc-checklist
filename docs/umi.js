@@ -50666,7 +50666,7 @@
 				a = n.n(r),
 				i = n('Ty5D');
 			t['default'] = (e) =>
-				a.a.createElement(i['a'], { to: '/Demo/Framework/fixheader' });
+				a.a.createElement(i['a'], { to: '/Framework/introduce' });
 		},
 		RbCH: function (e, t, n) {
 			'use strict';
@@ -96344,7 +96344,7 @@
 													''.concat(p) ===
 													''.concat(t),
 												onClick: () => {
-													m(t), x.push(e.to);
+													m(t), e.to && x.push(e.to);
 												},
 										  })
 										: i.a.createElement(
@@ -96397,15 +96397,17 @@
 																					? (w(
 																							!0,
 																					  ),
-																					  x.push(
-																							e.to,
-																					  ))
+																					  e.to &&
+																							x.push(
+																								e.to,
+																							))
 																					: (w(
 																							!1,
 																					  ),
-																					  x.push(
-																							e.to,
-																					  ));
+																					  e.to &&
+																							x.push(
+																								e.to,
+																							));
 																		},
 																},
 															),
@@ -96431,7 +96433,7 @@
 							'div',
 							{ className: 'menu-item' },
 							i.a.createElement(V, {
-								type: 'svg-icon-menu-rule',
+								type: 'svg-icon-apas-wiki',
 								className: 'svg-icon menu-item-icon',
 							}),
 							i.a.createElement(
@@ -96456,7 +96458,7 @@
 							'div',
 							{ className: 'menu-item' },
 							i.a.createElement(V, {
-								type: 'svg-icon-menu-rule',
+								type: 'svg-icon-menu-gdos-deployment',
 								className: 'svg-icon menu-item-icon',
 							}),
 							i.a.createElement(
@@ -96494,7 +96496,7 @@
 							'div',
 							{ className: 'menu-item' },
 							i.a.createElement(V, {
-								type: 'svg-icon-menu-user',
+								type: 'svg-icon-menu-rule',
 								className: 'svg-icon menu-item-icon',
 							}),
 							i.a.createElement(
@@ -96543,7 +96545,7 @@
 							'div',
 							{ className: 'menu-item' },
 							i.a.createElement(V, {
-								type: 'svg-icon-menu-user',
+								type: 'svg-icon-menu-dmcs-apiManagement',
 								className: 'svg-icon menu-item-icon',
 							}),
 							i.a.createElement(
@@ -96608,12 +96610,11 @@
 					l = n[1];
 				return (
 					Object(a['useEffect'])(() => {
-						window.scrollTo(0, 0),
-							e.location.pathname.match(
-								/\/enterApp|\/enterapp|\/noPermission|\/nopermission/gi,
-							)
-								? l(!1)
-								: l(!0);
+						window.scrollTo(0, 0);
+						var t = e.location.pathname.match(
+							/\/enterApp|\/enterapp|\/noPermission|\/nopermission/g,
+						);
+						null !== t && t.length > 0 ? l(!1) : l(!0);
 					}, [e.location.pathname]),
 					i.a.createElement(
 						o['a'],
@@ -136323,9 +136324,8 @@
 				J = l['a'].Body,
 				Q = l['a'].Content;
 			function Z(e) {
-				var t;
-				console.log(e);
-				var n =
+				var t,
+					n =
 						(null === (t = e.match.params) || void 0 === t
 							? void 0
 							: t.id) || 'android',

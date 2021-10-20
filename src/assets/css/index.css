@@ -17,6 +17,10 @@
   color: #444;
 }
 
+#root {
+  min-width: 1366px;
+}
+
 .master-header-nav .tea-nav__operation .tea-icon-news::before {
   color: #ffffff;
 }

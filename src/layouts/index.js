@@ -19,7 +19,7 @@ const routers = [
 		title: (
 			<div className="menu-item">
 				<SvgIcon
-					type="svg-icon-menu-rule"
+					type="svg-icon-apas-wiki"
 					className="svg-icon menu-item-icon"
 				/>
 				<div className="menu-item-text">Framework 框架层</div>
@@ -40,7 +40,7 @@ const routers = [
 		title: (
 			<div className="menu-item">
 				<SvgIcon
-					type="svg-icon-menu-rule"
+					type="svg-icon-menu-gdos-deployment"
 					className="svg-icon menu-item-icon"
 				/>
 				<div className="menu-item-text">Layout 右侧常见布局</div>
@@ -74,7 +74,7 @@ const routers = [
 		title: (
 			<div className="menu-item">
 				<SvgIcon
-					type="svg-icon-menu-user"
+					type="svg-icon-menu-rule"
 					className="svg-icon menu-item-icon"
 				/>
 				<div className="menu-item-text">Table 相关</div>
@@ -119,7 +119,7 @@ const routers = [
 		title: (
 			<div className="menu-item">
 				<SvgIcon
-					type="svg-icon-menu-user"
+					type="svg-icon-menu-dmcs-apiManagement"
 					className="svg-icon menu-item-icon"
 				/>
 				<div className="menu-item-text">Component 特殊用法</div>
@@ -172,15 +172,12 @@ const routers = [
 
 export default (props) => {
 	const [withSide, setWithSide] = useState(true);
-	// console.log("layout",props,props.location.pathname.match(/\/enterApp|\/enterapp\/noPermission|\/nopermission|/gi))
 	useEffect(() => {
 		window.scrollTo(0, 0);
-
-		if (
-			props.location.pathname.match(
-				/\/enterApp|\/enterapp|\/noPermission|\/nopermission/gi,
-			)
-		) {
+		const matches = props.location.pathname.match(
+			/\/enterApp|\/enterapp|\/noPermission|\/nopermission/g,
+		);
+		if (matches !== null && matches.length > 0) {
 			setWithSide(false);
 		} else {
 			setWithSide(true);
