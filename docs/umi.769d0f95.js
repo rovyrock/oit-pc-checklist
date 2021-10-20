@@ -4,8 +4,8 @@
 		: 'function' === typeof define && define.amd
 		? define([], t)
 		: 'object' === typeof exports
-		? (exports['oit-umi'] = t())
-		: (e['oit-umi'] = t());
+		? (exports['oit-pc-checklist-umi'] = t())
+		: (e['oit-pc-checklist-umi'] = t());
 })(window, function () {
 	return (function (e) {
 		var t = {};
@@ -130013,7 +130013,7 @@
 				return e;
 			}
 			var ee = n('YS25'),
-				te = { basename: '/oit' };
+				te = { basename: '/oit-pc-checklist' };
 			window.routerBase && (te.basename = window.routerBase);
 			var ne = Object({ NODE_ENV: 'production' }).__IS_SERVER
 					? null
