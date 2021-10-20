@@ -24,3 +24,36 @@ function Example() {
 export default Example;
 
 ```
+
+
+```js
+
+import React from 'react';
+import { Layout } from 'tea-component';
+const { Body, Content } = Layout;
+
+function Example() {
+
+    return (
+        <Layout>
+            <Body>
+                <Content className="oit-layout--vertical">
+                    <Content.Header title="上下固定 (oit-layout--vertical)" />
+                    <Content.Body full>
+                        4、内容区域
+                    </Content.Body>
+                    <Content.Footer>
+                        <Card>
+                            <Card.Body>
+                                <Button type="primary">提交</Button>
+                            </Card.Body>
+                        </Card>
+                    </Content.Footer>
+                </Content>
+            </Body>
+        </Layout>
+    )
+}
+export default Example;
+
+```

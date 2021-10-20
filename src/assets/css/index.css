@@ -17,6 +17,10 @@
   color: #444;
 }
 
+.master-header-nav .tea-nav__operation .tea-icon-news::before {
+  color: #ffffff;
+}
+
 .customize-form .tea-input {
   width: 90%;
 }

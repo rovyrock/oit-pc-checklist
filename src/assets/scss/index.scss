@@ -1,11 +1,21 @@
 
 @import "./customizeSvgicon";
 
+
 // 业务样式可以在这里处理
 .pagexxx{
 
 
 }
+// 1、顶部导航
+.master-header-nav{
+    .tea-nav__operation .tea-icon-news{
+        &::before{
+            color:$color-text-anti-primary;
+        }
+    }
+}
+
 
 // 样式作用域案例
 .customize{
