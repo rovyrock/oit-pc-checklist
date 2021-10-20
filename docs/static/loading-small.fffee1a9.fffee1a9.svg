@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>路径</title>
+    <g id="color" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="button备份" transform="translate(-1551.000000, -2694.000000)" fill="#FFFFFF">
+            <path d="M1556,2704 C1553.23858,2704 1551,2701.76142 1551,2699 C1551,2696.23858 1553.23858,2694 1556,2694 L1556,2696 C1554.34315,2696 1553,2697.34315 1553,2699 C1553,2700.65685 1554.34315,2702 1556,2702 C1557.65685,2702 1559,2700.65685 1559,2699 L1561,2699 C1561,2701.76142 1558.76142,2704 1556,2704 Z" id="路径"></path>
+        </g>
+    </g>
+</svg>

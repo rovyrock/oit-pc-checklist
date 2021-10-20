@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>画板</title>
+    <desc>Created with Sketch.</desc>
+    <g id="画板" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" opacity="0" x="0" y="0" width="16" height="16"></rect>
+        <path d="M8,1 C11.8659932,1 15,4.12899555 15,7.98880717 C15,11.7483552 12.0266983,14.8145618 8.2997486,14.9713223 L8.2842087,15 L3.78420867,15 L5.503,13.284 L6.14165001,12.6246393 L6.158,12.63 L8.7811186,10.01108 L8.7818821,12.920133 C11.1719081,12.5454042 13,10.4802512 13,7.98880717 C13,5.23179887 10.7614237,2.99680205 8,2.99680205 C5.23857625,2.99680205 3,5.23179887 3,7.98880717 C3,8.6203553 3.11746504,9.2245119 3.33177204,9.7806867 L1.8437849,11.3181069 C1.30564741,10.3283075 1,9.1941942 1,7.98880717 C1,4.12899555 4.13400675,1 8,1 Z" id="形状结合" fill="#fff" fill-rule="nonzero" transform="translate(8.000000, 8.000000) rotate(-90.000000) translate(-8.000000, -8.000000) "></path>
+    </g>
+</svg>

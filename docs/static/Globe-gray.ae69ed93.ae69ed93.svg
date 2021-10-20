@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon 全球</title>
+    <g id="ICON-基础库(绘制参考)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-全球">
+            <rect id="矩形" fill="#FFFFFF" opacity="0" x="0" y="0" width="16" height="16"></rect>
+            <path d="M2,8 C2,7.686 2.032,7.379 2.078,7.078 L6,11 L6,12 L8,12 L8,14 C4.691,14 2,11.309 2,8 M14,8 C14,9.093 13.701,10.116 13.188,11 L12,11 L10,9 L5,9 L5,7 L8,7 L8,4 L10,4 L10,2.35 C12.327,3.176 14,5.394 14,8 M8,0 C3.582,0 0,3.582 0,8 C0,12.418 3.582,16 8,16 C12.418,16 16,12.418 16,8 C16,3.582 12.418,0 8,0" id="Fill-1" fill="#888888"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>手机1 -错误</title>
+    <g id="手机1--错误" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero">
+            <rect id="矩形" stroke="#979797" style="fill:#888888" x="5.5" y="11.5" width="1" height="1"></rect>
+            <path d="M12,8.8817842e-15 L12,7 L12,7 C11.2890737,7 10.6128018,7.14837301 10.0004611,7.41584227 L10,2 L2,2 L2,14 L7.41627634,14.0005324 C7.76440489,14.7970599 8.31406993,15.485361 9.00081101,16.0009752 L0,16 L0,8.8817842e-15 L12,8.8817842e-15 Z" id="形状结合" fill="#888888"></path>
+            <path d="M12,8 C14.209139,8 16,9.790861 16,12 C16,14.209139 14.209139,16 12,16 C9.790861,16 8,14.209139 8,12 C8,9.790861 9.790861,8 12,8 Z M12.5,13.5 L11.5,13.5 L11.5,14.5 L12.5,14.5 L12.5,13.5 Z M12.5,9.5 L11.5,9.5 L11.5,12.5 L12.5,12.5 L12.5,9.5 Z" id="形状结合" style="fill:#F74042"></path>
+        </g>
+    </g>
+</svg>

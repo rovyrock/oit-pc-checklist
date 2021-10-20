@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>folderclose</title>
+    <g id="腾讯云控制台操作icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="文件夹关闭">
+            <g id="folderclose">
+                <rect id="矩形" fill="#FFFFFF" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                <path d="M6,1 L8,3 L15,3 L15,14 L0,14 L0,1 L6,1 Z M13,5 L2,5 L2,12 L13,12 L13,5 Z" id="形状结合" fill="#888888" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
