@@ -96433,7 +96433,7 @@
 							'div',
 							{ className: 'menu-item' },
 							i.a.createElement(V, {
-								type: 'svg-icon-apas-wiki',
+								type: 'svg-icon-menu-databrain-introdution',
 								className: 'svg-icon menu-item-icon',
 							}),
 							i.a.createElement(

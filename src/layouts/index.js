@@ -19,7 +19,7 @@ const routers = [
 		title: (
 			<div className="menu-item">
 				<SvgIcon
-					type="svg-icon-apas-wiki"
+					type="svg-icon-menu-databrain-introdution"
 					className="svg-icon menu-item-icon"
 				/>
 				<div className="menu-item-text">Framework 框架层</div>
