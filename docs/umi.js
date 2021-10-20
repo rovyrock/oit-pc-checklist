@@ -130013,11 +130013,11 @@
 				return e;
 			}
 			var ee = n('YS25'),
-				te = { basename: '/oit-pc-checklist' };
+				te = { basename: '/' };
 			window.routerBase && (te.basename = window.routerBase);
 			var ne = Object({ NODE_ENV: 'production' }).__IS_SERVER
 					? null
-					: Object(ee['a'])(te),
+					: Object(ee['b'])(te),
 				re = function () {
 					var e =
 						arguments.length > 0 &&
@@ -130035,7 +130035,7 @@
 								ne = Object(ee['a'])(te);
 								break;
 							default:
-								ne = Object(ee['a'])(te);
+								ne = Object(ee['b'])(te);
 						}
 					return ne;
 				},
@@ -131746,7 +131746,7 @@
 									isServer: Object({ NODE_ENV: 'production' })
 										.__IS_SERVER,
 									rootElement: 'root',
-									defaultTitle: 'OIT PC Template',
+									defaultTitle: 'OIT PC Checklist',
 								},
 							});
 							return zt(t);
