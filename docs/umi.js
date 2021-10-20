@@ -95406,38 +95406,38 @@
 					},
 				];
 			function v(e) {
-				var t = Object(u['g'])(),
-					n = Object(a['useRef'])(),
-					o = Object(a['useState'])(!1),
-					c = Object(r['a'])(o, 2),
-					v = c[0],
-					_ = c[1],
-					y = Object(a['useState'])(!1),
-					g = Object(r['a'])(y, 2),
-					b = g[1],
-					w = Object(a['useState'])(m[0]),
-					x = Object(r['a'])(w, 2),
-					E = x[0],
-					M = x[1],
-					S = Object(a['useState'])(h[0]),
-					k = Object(r['a'])(S, 2),
-					T = k[0],
-					O = k[1],
-					C = () => {
-						var e = !v,
-							t = n.current.messageModal;
-						_(e),
-							b(t),
-							n.current.showResults(),
-							console.log(n.current);
+				Object(u['g'])();
+				var t = Object(a['useRef'])(),
+					n = Object(a['useState'])(!1),
+					o = Object(r['a'])(n, 2),
+					c = o[0],
+					v = o[1],
+					_ = Object(a['useState'])(!1),
+					y = Object(r['a'])(_, 2),
+					g = y[1],
+					b = Object(a['useState'])(m[0]),
+					w = Object(r['a'])(b, 2),
+					x = w[0],
+					E = w[1],
+					M = Object(a['useState'])(h[0]),
+					S = Object(r['a'])(M, 2),
+					k = S[0],
+					T = S[1],
+					O = () => {
+						var e = !c,
+							n = t.current.messageModal;
+						v(e),
+							g(n),
+							t.current.showResults(),
+							console.log(t.current);
 					},
-					j = (Object(a['useRef'])(), Object(a['useState'])(!1)),
-					L = Object(r['a'])(j, 2),
-					D = (L[0], L[1], Object(a['useState'])(!1)),
-					N = Object(r['a'])(D, 2);
-				N[1];
+					C = (Object(a['useRef'])(), Object(a['useState'])(!1)),
+					j = Object(r['a'])(C, 2),
+					L = (j[0], j[1], Object(a['useState'])(!1)),
+					D = Object(r['a'])(L, 2);
+				D[1];
 				return i.a.createElement(s['NavMenu'], {
-					className: 'master-header-nav',
+					className: 'header',
 					left: i.a.createElement(
 						i.a.Fragment,
 						null,
@@ -95463,17 +95463,17 @@
 												{
 													key: n,
 													onClick: () => {
-														M(t), e();
+														E(t), e();
 													},
 													selected:
-														t.value === E.value,
+														t.value === x.value,
 												},
 												t.text,
 											),
 										),
 									),
 							},
-							E.text,
+							x.text,
 						),
 						i.a.createElement(
 							s['NavMenu'].Item,
@@ -95492,17 +95492,17 @@
 												{
 													key: n,
 													onClick: () => {
-														O(t), e();
+														T(t), e();
 													},
 													selected:
-														t.value === T.value,
+														t.value === k.value,
 												},
 												t.text,
 											),
 										),
 									),
 							},
-							T.text,
+							k.text,
 						),
 						i.a.createElement(s['NavMenu'].Item, { type: 'logo' }),
 						i.a.createElement(
@@ -95510,7 +95510,7 @@
 							null,
 							i.a.createElement(
 								l['a'],
-								{ to: '/' },
+								{ to: '/Framework/introduce' },
 								'\u4e00\u7ad9\u5f0f\u5de5\u4f5c\u53f0',
 							),
 						),
@@ -95539,7 +95539,7 @@
 								type: 'plus',
 								className: 'tea-icon',
 							}),
-							i.a.createElement(f, { isShow: v, ref: n }),
+							i.a.createElement(f, { isShow: c, ref: t }),
 						),
 					),
 					right: i.a.createElement(
@@ -95547,7 +95547,7 @@
 						null,
 						i.a.createElement(
 							s['NavMenu'].Item,
-							{ type: 'icon', onClick: C },
+							{ type: 'icon', onClick: O },
 							i.a.createElement(s['Icon'], {
 								type: 'news',
 								className: 'tea-icon tea-icon-news',
@@ -95557,7 +95557,7 @@
 								{ dark: !0, theme: 'danger' },
 								'4',
 							),
-							i.a.createElement(d, { isShow: v, ref: n }),
+							i.a.createElement(d, { isShow: c, ref: t }),
 						),
 						i.a.createElement(
 							s['NavMenu'].Item,
@@ -95577,10 +95577,7 @@
 										i.a.createElement(
 											s['List'].Item,
 											{
-												onClick: () =>
-													t.push(
-														'/accountCenter/userInfo',
-													),
+												onClick: () => {},
 												className: 'list-item',
 											},
 											i.a.createElement(
@@ -95604,10 +95601,7 @@
 										i.a.createElement(
 											s['List'].Item,
 											{
-												onClick: () =>
-													t.push(
-														'/accountCenter/merchantInfo',
-													),
+												onClick: () => {},
 												className: 'list-item',
 											},
 											i.a.createElement(
@@ -95631,10 +95625,7 @@
 										i.a.createElement(
 											s['List'].Item,
 											{
-												onClick: () =>
-													t.push(
-														'/accountCenter/businessListManagment',
-													),
+												onClick: () => {},
 												className: 'list-item',
 											},
 											i.a.createElement(
@@ -95680,9 +95671,18 @@
 											),
 										),
 									),
-								className: 'header-avatar',
+								className: 'header-user',
 							},
-							i.a.createElement('img', { src: p, alt: '' }),
+							i.a.createElement('img', {
+								className: 'header-user-avatar',
+								src: p,
+								alt: '',
+							}),
+							i.a.createElement(
+								'span',
+								{ className: 'header-user-name' },
+								'username',
+							),
 						),
 					),
 				});
@@ -124251,7 +124251,7 @@
 								text: '\u6b63\u5728\u8fdb\u5165 XXXX \u7cfb\u7edf',
 						  })
 						: l.a.createElement(s['a'], {
-								to: '/Demo/Framework/fixheader',
+								to: '/Framework/introduce',
 						  })
 				);
 			};

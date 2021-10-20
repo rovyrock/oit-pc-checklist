@@ -1,6 +1,6 @@
 
 @import "./customizeSvgicon";
-
+// 最好设置下页面最小宽度，避免页面不断缩小，内容被挤压
 #root{
     min-width: 1366px;
 }
@@ -9,11 +9,26 @@
 
 
 }
-// 1、顶部导航
-.master-header-nav{
+// 1、顶部导航（自定义样式）
+.header{
     .tea-nav__operation .tea-icon-news{
         &::before{
             color:$color-text-anti-primary;
+        }
+    }
+    &-user{
+        .tea-dropdown__value{
+            max-width: initial;
+            display:flex;
+            align-items: center;
+        }
+        &-avatar{
+
+        }
+        &-name{
+            margin-right: 4px;
+            margin-left: 6px;
+
         }
     }
 }

@@ -51,7 +51,7 @@ export default function Header(props) {
 
 	return (
 		<NavMenu
-			className="master-header-nav"
+			className="header"
 			left={
 				<>
 					<NavMenu.Item type="logo">
@@ -102,7 +102,7 @@ export default function Header(props) {
 
 					<NavMenu.Item type="logo"></NavMenu.Item>
 					<NavMenu.Item>
-						<Link to="/">一站式工作台</Link>
+						<Link to="/Framework/introduce">一站式工作台</Link>
 					</NavMenu.Item>
 					<NavMenu.Item>
 						<Link to="/noPermission">无权限</Link>
@@ -135,9 +135,7 @@ export default function Header(props) {
 								style={{ width: 200, padding: '5px 0' }}
 							>
 								<List.Item
-									onClick={() =>
-										history.push('/accountCenter/userInfo')
-									}
+									onClick={() => {}}
 									className="list-item"
 								>
 									<div className="list-col">
@@ -151,11 +149,7 @@ export default function Header(props) {
 									</div>
 								</List.Item>
 								<List.Item
-									onClick={() =>
-										history.push(
-											'/accountCenter/merchantInfo',
-										)
-									}
+									onClick={() => {}}
 									className="list-item"
 								>
 									<div className="list-col">
@@ -169,11 +163,7 @@ export default function Header(props) {
 									</div>
 								</List.Item>
 								<List.Item
-									onClick={() =>
-										history.push(
-											'/accountCenter/businessListManagment',
-										)
-									}
+									onClick={() => {}}
 									className="list-item"
 								>
 									<div className="list-col">
@@ -200,9 +190,10 @@ export default function Header(props) {
 								</List.Item>
 							</List>
 						)}
-						className="header-avatar"
+						className="header-user"
 					>
-						<img src={user} alt="" />
+						<img className="header-user-avatar" src={user} alt="" />
+						<span className="header-user-name">username</span>
 					</NavMenu.Item>
 				</>
 			}
