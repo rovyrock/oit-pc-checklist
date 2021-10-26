@@ -43,3 +43,11 @@
 .customize-form .tea-input {
   width: 90%;
 }
+
+.customize-card__tabs {
+  padding: 16px 0 0 0;
+}
+
+.customize-card__tabs > .tea-tabs__tabbar {
+  padding: 0 20px;
+}

@@ -14,6 +14,7 @@ const tabs = [
 	{ id: 'android', label: '基本信息' },
 	{ id: 'ios', label: '弹性网卡' },
 	{ id: 'windows', label: '监控信息' },
+	{ id: 'test', label: '测试', disabled: true },
 ];
 const { Body, Content } = Layout;
 export default function App(props) {

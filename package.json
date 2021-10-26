@@ -30,7 +30,7 @@
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
     "oit-permission": "^0.1.6",
-    "oit-style": "^1.0.24",
+    "oit-style": "^1.0.25",
     "react-hook-form": "^7.17.4",
     "react-router-dom": "^5.2.0",
     "tea-chart": "^2.4.2",

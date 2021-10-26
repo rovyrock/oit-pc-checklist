@@ -51,7 +51,7 @@ export default (props) => {
 		<Layout>
 			<Body>
 				<Content className="oit-layout--fixheader">
-					<Content.Header title="表单验证 react-hook-form" />
+					<Content.Header title="表单验证（使用：react-hook-form）" />
 					<Content.Body full>
 						<Card style={{ marginBottom: 20 }}>
 							<Card.Body title="说明">

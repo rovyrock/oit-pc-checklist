@@ -42,3 +42,12 @@
         }
     }
 }
+// Card 顶部是一个Tabs切换
+.customize-card{
+    &__tabs{
+        padding:16px 0 0 0;
+        & > .tea-tabs__tabbar{
+            padding:0 20px
+        }
+    }
+}
