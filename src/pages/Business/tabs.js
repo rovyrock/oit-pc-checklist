@@ -25,12 +25,12 @@ const tabs = [
 	{ id: 'android2', label: '基本信息2' },
 	{ id: 'ios2', label: '弹性网卡2' },
 	{ id: 'windows2', label: '监控信息2' },
-	{ id: 'android3', label: '基本信息3' },
-	{ id: 'ios3', label: '弹性网卡3' },
-	{ id: 'windows3', label: '监控信息3' },
-	{ id: 'android4', label: '基本信息4' },
-	{ id: 'ios4', label: '弹性网卡4' },
-	{ id: 'windows4', label: '监控信息4' },
+	// { id: 'android3', label: '基本信息3' },
+	// { id: 'ios3', label: '弹性网卡3' },
+	// { id: 'windows3', label: '监控信息3' },
+	// { id: 'android4', label: '基本信息4' },
+	// { id: 'ios4', label: '弹性网卡4' },
+	// { id: 'windows4', label: '监控信息4' },
 ];
 const STATUS = [
 	{ text: '全部', value: '1' },
