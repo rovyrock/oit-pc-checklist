@@ -27,10 +27,9 @@ export default () => {
 		setStatus('loading');
 		await sleep(1000).then(() => {
 			setStatus('none');
-			console.log(alignData.data.list);
+			console.log(alignData.data);
 			setData(alignData.data.list);
-			setTotal(alignData.data.total);
-
+			setTotal(alignData.data.list.length);
 			setGetDataSuccess(true);
 			if (alignData.data.list.length === 0) setStatus('empty');
 		});
